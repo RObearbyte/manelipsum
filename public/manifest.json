@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Manelipsum",
+  "name": "Manelipsum - Generator lorem ipsum cu valoare",
   "icons": [
     {
       "src": "favicon.ico",
