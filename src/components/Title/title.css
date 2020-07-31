@@ -6,11 +6,11 @@
     background-color: black;
     border-radius: 20px; 
     text-align: center;
-    padding: 15px;
+    padding: 20px;
   }
   
   .text {
-    animation: glow 3s linear infinite, blinker 3s linear infinite;
+    animation: glow 2s linear infinite, blinker 2s linear infinite;
   }
   
   @keyframes blinker {
