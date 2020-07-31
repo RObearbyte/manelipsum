@@ -1,0 +1,28 @@
+  .title {
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    color: #FFE07B;
+    background-color: black;
+    border-radius: 20px; 
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .text {
+    animation: glow 3s linear infinite, blinker 3s linear infinite;
+  }
+  
+  @keyframes blinker {
+    
+    50% {
+      opacity: 10%;
+    }
+    
+  }
+  
+  @keyframes glow {
+    0%, 100% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFD757 , 0 0 40px #FFD757;
+    }
+  }
