@@ -1,3 +1,15 @@
+.submit-button-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.regele {
+    display: block;
+    max-width: 230px;
+    position: relative;
+    top: 45px;
+}
+
 .submit-button {
     background-color: #000 !important;
     border-color: #63C5BB !important;
@@ -6,9 +18,9 @@
     border: 0 !important;
     padding: 7px;
     font-family: 'Lobster', cursive;
+    z-index: 10;
 }
 
-.regele {
-    display: block;
-    max-width: 230px;
+.submit-button:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #FFD757, 0 0 30px #FFD757;
 }

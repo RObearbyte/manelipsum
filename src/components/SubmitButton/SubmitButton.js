@@ -6,7 +6,7 @@ import './submit-button.css'
 class SubmitButton extends Component {
     render() {
         return (
-            <div>
+            <div className="submit-button-wrapper">
                 <img src={images.salam} className="regele" alt="Florin Salam Regele Manelelor" />
                 <Button size="lg" className="submit-button">Hai cu valoarea!</Button>
             </div>
